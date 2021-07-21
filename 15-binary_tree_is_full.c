@@ -6,6 +6,7 @@
  *
  * Return: 1 if full or 0 is not balance
  */
+
 static int tree_height(const binary_tree_t *tree)
 {
 	if (tree->left && tree->right)
